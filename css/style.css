@@ -1,7 +1,16 @@
+body {
+    background-color: #e4e4e4;
+}
+
 .center {
     margin: auto;
 }
 
 .content .row {
-    min-height: 100vh;
+    height: 100vh;
+}
+
+.content .row h1, .content .row h2 {
+    text-align: center;
+    margin: auto;
 }
