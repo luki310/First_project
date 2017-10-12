@@ -7,10 +7,26 @@ body {
 }
 
 .content .row {
-    height: 100vh;
+    height: calc(100vh - 112px);
 }
 
 .content .row h1, .content .row h2 {
     text-align: center;
     margin: auto;
+}
+
+.visible-no {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.visible, .visible-no {
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear;
 }
